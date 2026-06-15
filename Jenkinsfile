@@ -2,14 +2,14 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "shashivar04/jenkins-demo:latest"
+        IMAGE_NAME = "bhawani608/jenkins1:latest"
     }
 
     stages {
         stage('Checkout Code') {
             steps {
                 git branch: 'main',
-                    url:  'https://github.com/shashi04/jenkins-dockerImage.git'
+                    url:  'https://github.com/bhawanirajsinghranawat-ctrl/jenkins-dockerImage.git'
             }
         }
 
