@@ -1,4 +1,4 @@
-# Use an official Python runtime as a base imagee
+# Use an official Python runtime as a base image
 FROM python:3.9
 
 # Set the working directory
